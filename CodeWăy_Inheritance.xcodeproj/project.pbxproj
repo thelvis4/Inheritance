@@ -14,6 +14,7 @@
 		4450A4B91B8075D1003C1287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450A4B21B8075D1003C1287 /* Main.storyboard */; };
 		4450A4E51B80BC23003C1287 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4E41B80BC23003C1287 /* Wheel.swift */; };
 		4450A4EB1B80BE15003C1287 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4EA1B80BE15003C1287 /* Protocols.swift */; };
+		4450A4ED1B80BE63003C1287 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4EC1B80BE63003C1287 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4450A4B31B8075D1003C1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4450A4E41B80BC23003C1287 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		4450A4EA1B80BE15003C1287 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		4450A4EC1B80BE63003C1287 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 		4450A4E21B80BBB0003C1287 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				4450A4EC1B80BE63003C1287 /* Car.swift */,
 				4450A4E31B80BBBE003C1287 /* Components */,
 			);
 			path = Cars;
@@ -182,6 +185,7 @@
 			files = (
 				4450A4E51B80BC23003C1287 /* Wheel.swift in Sources */,
 				4450A4B51B8075D1003C1287 /* ViewController.swift in Sources */,
+				4450A4ED1B80BE63003C1287 /* Car.swift in Sources */,
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
 				4450A4EB1B80BE15003C1287 /* Protocols.swift in Sources */,
 			);
