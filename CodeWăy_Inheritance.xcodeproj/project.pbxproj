@@ -14,6 +14,7 @@
 		4450A4B91B8075D1003C1287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450A4B21B8075D1003C1287 /* Main.storyboard */; };
 		4450A4BE1B807EF9003C1287 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BD1B807EF9003C1287 /* Car.swift */; };
 		4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BF1B807F2F003C1287 /* Wheel.swift */; };
+		4450A4C41B808533003C1287 /* ToyotaCorolla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C31B808533003C1287 /* ToyotaCorolla.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4450A4B31B8075D1003C1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4450A4BD1B807EF9003C1287 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		4450A4BF1B807F2F003C1287 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		4450A4C31B808533003C1287 /* ToyotaCorolla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorolla.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				4450A4BF1B807F2F003C1287 /* Wheel.swift */,
 				4450A4BD1B807EF9003C1287 /* Car.swift */,
+				4450A4C31B808533003C1287 /* ToyotaCorolla.swift */,
 			);
 			path = Cars;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4450A4C41B808533003C1287 /* ToyotaCorolla.swift in Sources */,
 				4450A4B51B8075D1003C1287 /* ViewController.swift in Sources */,
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
 				4450A4BE1B807EF9003C1287 /* Car.swift in Sources */,

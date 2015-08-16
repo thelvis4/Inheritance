@@ -13,6 +13,9 @@ class ViewController: UIViewController {
         let car = Car()
         let string = car.manufacturer
         print(string)
+        
+        let toyota = ToyotaCorolla()
+        print(toyota.manufacturer)
     }
 }
 
