@@ -7,37 +7,25 @@
 //
 
 class TwoWheelDrive: Driving {
-    private var left: Wheel
-    private var right: Wheel
+    private let wheels: WheelPair
     
-    init(left: Wheel, right: Wheel) {
-        self.left = left
-        self.right = right
+    init(pair: WheelPair) {
+        wheels = pair
     }
     
     func accelerate(kph: Double) {
-        left.rotate(kph)
-        right.rotate(kph)
+        wheels.forEach { $0.rotate(kph) }
     }
 }
 
 class AllWheelDrive: Driving {
-    private var frontLeft: Wheel
-    private var frontRight: Wheel
-    private var rearLeft: Wheel
-    private var rearRight: Wheel
+    private let wheels: Wheels
     
-    init (frontLeft: Wheel, frontRight: Wheel, rearLeft: Wheel, rearRight: Wheel) {
-        self.frontLeft = frontLeft
-        self.frontRight = frontRight
-        self.rearLeft = rearLeft
-        self.rearRight = rearRight
+    init (wheels: Wheels) {
+        self.wheels = wheels
     }
     
     func accelerate(kph: Double) {
-        frontLeft.rotate(kph)
-        frontLeft.rotate(kph)
-        rearLeft.rotate(kph)
-        rearRight.rotate(kph)
+        wheels.forEach { $0.rotate(kph) }
     }
 }

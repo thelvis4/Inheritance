@@ -7,25 +7,16 @@
 //
 
 class Car {
-    let frontLeft: Wheel
-    let frontRight: Wheel
-    let rearLeft: Wheel
-    let rearRight: Wheel
-    
+    let wheels: Wheels
     let steering: Steering
     var driving: Driving
     let manufacturer: Manufacturer
     
-    init(frontLeft: Wheel, frontRight: Wheel, rearLeft: Wheel, rearRight: Wheel,
-        steering: Steering, driving: Driving, manufacturer: Manufacturer) {
-            self.frontLeft = frontLeft
-            self.frontRight = frontRight
-            self.rearLeft = rearLeft
-            self.rearRight = rearRight
-            
-            self.steering = steering
-            self.driving = driving
-            self.manufacturer = manufacturer
+    init(wheels: Wheels, steering: Steering, driving: Driving, manufacturer: Manufacturer) {
+        self.wheels = wheels
+        self.steering = steering
+        self.driving = driving
+        self.manufacturer = manufacturer
     }
     
     func turnLeft(degrees: Double) {

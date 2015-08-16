@@ -7,49 +7,33 @@
 //
 
 class FrontSteering: Steering {
-    private var frontLeft: Wheel
-    private var frontRight: Wheel
+    private let wheels: WheelPair
     
-    init (left: Wheel, right: Wheel) {
-        frontLeft = left
-        frontRight = right
+    init (pair: WheelPair) {
+        wheels = pair
     }
     
     func turnLeft(degrees: Double) {
-        frontLeft.turnLeft(degrees)
-        frontRight.turnLeft(degrees)
+        wheels.forEach { $0.turnLeft(degrees) }
     }
     
     func turnRight(degrees: Double) {
-        frontLeft.turnRight(degrees)
-        frontRight.turnRight(degrees)
+        wheels.forEach { $0.turnRight(degrees) }
     }
 }
 
 class AllWheelSteering: Steering {
-    private var frontLeft: Wheel
-    private var frontRight: Wheel
-    private var rearLeft: Wheel
-    private var rearRight: Wheel
+    private let wheels: Wheels
     
-    init (frontLeft: Wheel, frontRight: Wheel, rearLeft: Wheel, rearRight: Wheel) {
-        self.frontLeft = frontLeft
-        self.frontRight = frontRight
-        self.rearLeft = rearLeft
-        self.rearRight = rearRight
+    init (wheels: Wheels) {
+        self.wheels = wheels
     }
     
     func turnLeft(degrees: Double) {
-        frontLeft.turnLeft(degrees)
-        frontRight.turnLeft(degrees)
-        rearLeft.turnLeft(degrees)
-        rearRight.turnLeft(degrees)
+        wheels.forEach{ $0.turnLeft(degrees) }
     }
     
     func turnRight(degrees: Double) {
-        frontLeft.turnRight(degrees)
-        frontRight.turnRight(degrees)
-        rearLeft.turnRight(degrees)
-        rearRight.turnRight(degrees)
+        wheels.forEach{ $0.turnRight(degrees) }
     }
 }
