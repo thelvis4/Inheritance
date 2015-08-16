@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         
         let toyotaSport = ToyotaCorollaSport()
         print(toyotaSport.manufacturer)
+        
+        print(HondaCivic().manufacturer)
+        print(HondaCivicSport().manufacturer)
     }
 }
 

@@ -6,7 +6,7 @@
 //  Copyright © 2015 YOPESO. All rights reserved.
 //
 
-class ToyotaCorolla: Car {
+class ToyotaCorolla: FrontWheelDriveCar {
     override var manufacturer: String {
         get { return "Toyota" }
     }

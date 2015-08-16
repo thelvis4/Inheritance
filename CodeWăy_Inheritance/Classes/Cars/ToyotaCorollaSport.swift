@@ -6,9 +6,8 @@
 //  Copyright © 2015 YOPESO. All rights reserved.
 //
 
-class ToyotaCorollaSport: ToyotaCorolla {
-    override func accelerate(kph: Double) {
-        rearLeft.rotate(kph)
-        rearRight.rotate(kph)
+class ToyotaCorollaSport: RearWheelDriveCar {
+    override var manufacturer: String {
+        get { return "Toyota" }
     }
 }

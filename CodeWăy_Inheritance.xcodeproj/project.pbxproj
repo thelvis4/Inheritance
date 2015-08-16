@@ -16,6 +16,10 @@
 		4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BF1B807F2F003C1287 /* Wheel.swift */; };
 		4450A4C41B808533003C1287 /* ToyotaCorolla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C31B808533003C1287 /* ToyotaCorolla.swift */; };
 		4450A4C81B808654003C1287 /* ToyotaCorollaSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C71B808654003C1287 /* ToyotaCorollaSport.swift */; };
+		4450A4CA1B8087BB003C1287 /* FrontWheelDriveCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C91B8087BB003C1287 /* FrontWheelDriveCar.swift */; };
+		4450A4CC1B8087FF003C1287 /* RearWheelDriveCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4CB1B8087FF003C1287 /* RearWheelDriveCar.swift */; };
+		4450A4CE1B8088E8003C1287 /* HondaCivic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4CD1B8088E8003C1287 /* HondaCivic.swift */; };
+		4450A4D01B808912003C1287 /* HondaCivicSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4CF1B808912003C1287 /* HondaCivicSport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		4450A4BF1B807F2F003C1287 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		4450A4C31B808533003C1287 /* ToyotaCorolla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorolla.swift; sourceTree = "<group>"; };
 		4450A4C71B808654003C1287 /* ToyotaCorollaSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorollaSport.swift; sourceTree = "<group>"; };
+		4450A4C91B8087BB003C1287 /* FrontWheelDriveCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontWheelDriveCar.swift; sourceTree = "<group>"; };
+		4450A4CB1B8087FF003C1287 /* RearWheelDriveCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearWheelDriveCar.swift; sourceTree = "<group>"; };
+		4450A4CD1B8088E8003C1287 /* HondaCivic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivic.swift; sourceTree = "<group>"; };
+		4450A4CF1B808912003C1287 /* HondaCivicSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivicSport.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,8 +84,12 @@
 			children = (
 				4450A4BF1B807F2F003C1287 /* Wheel.swift */,
 				4450A4BD1B807EF9003C1287 /* Car.swift */,
+				4450A4C91B8087BB003C1287 /* FrontWheelDriveCar.swift */,
+				4450A4CB1B8087FF003C1287 /* RearWheelDriveCar.swift */,
 				4450A4C31B808533003C1287 /* ToyotaCorolla.swift */,
 				4450A4C71B808654003C1287 /* ToyotaCorollaSport.swift */,
+				4450A4CD1B8088E8003C1287 /* HondaCivic.swift */,
+				4450A4CF1B808912003C1287 /* HondaCivicSport.swift */,
 			);
 			path = Cars;
 			sourceTree = "<group>";
@@ -178,10 +190,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4450A4CE1B8088E8003C1287 /* HondaCivic.swift in Sources */,
 				4450A4C41B808533003C1287 /* ToyotaCorolla.swift in Sources */,
+				4450A4D01B808912003C1287 /* HondaCivicSport.swift in Sources */,
+				4450A4CC1B8087FF003C1287 /* RearWheelDriveCar.swift in Sources */,
 				4450A4B51B8075D1003C1287 /* ViewController.swift in Sources */,
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
 				4450A4C81B808654003C1287 /* ToyotaCorollaSport.swift in Sources */,
+				4450A4CA1B8087BB003C1287 /* FrontWheelDriveCar.swift in Sources */,
 				4450A4BE1B807EF9003C1287 /* Car.swift in Sources */,
 				4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */,
 			);
