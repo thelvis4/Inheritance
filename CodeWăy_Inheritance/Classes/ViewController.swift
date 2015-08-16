@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    override func viewDidLoad() {
+        let car = Car()
+        let string = car.manufacturer
+        print(string)
+    }
 }
 

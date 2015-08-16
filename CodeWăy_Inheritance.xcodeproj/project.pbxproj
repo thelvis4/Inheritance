@@ -12,6 +12,8 @@
 		4450A4B71B8075D1003C1287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4450A4AF1B8075D1003C1287 /* Assets.xcassets */; };
 		4450A4B81B8075D1003C1287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450A4B01B8075D1003C1287 /* LaunchScreen.storyboard */; };
 		4450A4B91B8075D1003C1287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450A4B21B8075D1003C1287 /* Main.storyboard */; };
+		4450A4BE1B807EF9003C1287 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BD1B807EF9003C1287 /* Car.swift */; };
+		4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BF1B807F2F003C1287 /* Wheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4450A4AF1B8075D1003C1287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4450A4B11B8075D1003C1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4450A4B31B8075D1003C1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4450A4BD1B807EF9003C1287 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		4450A4BF1B807F2F003C1287 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -38,6 +42,7 @@
 		4450A4A91B8075D1003C1287 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4450A4BA1B807848003C1287 /* Cars */,
 				4450A4AA1B8075D1003C1287 /* AppDelegate.swift */,
 				4450A4AB1B8075D1003C1287 /* ViewController.swift */,
 			);
@@ -60,6 +65,15 @@
 				4450A4B21B8075D1003C1287 /* Main.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4450A4BA1B807848003C1287 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				4450A4BF1B807F2F003C1287 /* Wheel.swift */,
+				4450A4BD1B807EF9003C1287 /* Car.swift */,
+			);
+			path = Cars;
 			sourceTree = "<group>";
 		};
 		4488B0101B8074F600ED2B3E = {
@@ -160,6 +174,8 @@
 			files = (
 				4450A4B51B8075D1003C1287 /* ViewController.swift in Sources */,
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
+				4450A4BE1B807EF9003C1287 /* Car.swift in Sources */,
+				4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
