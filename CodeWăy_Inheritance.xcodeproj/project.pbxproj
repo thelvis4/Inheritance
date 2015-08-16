@@ -15,6 +15,9 @@
 		4450A4E51B80BC23003C1287 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4E41B80BC23003C1287 /* Wheel.swift */; };
 		4450A4EB1B80BE15003C1287 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4EA1B80BE15003C1287 /* Protocols.swift */; };
 		4450A4ED1B80BE63003C1287 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4EC1B80BE63003C1287 /* Car.swift */; };
+		4450A4EF1B80BEE4003C1287 /* Steerings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4EE1B80BEE4003C1287 /* Steerings.swift */; };
+		4450A4F11B80BEEF003C1287 /* Drives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4F01B80BEEF003C1287 /* Drives.swift */; };
+		4450A4F31B80BF32003C1287 /* Manufacturers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4F21B80BF32003C1287 /* Manufacturers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		4450A4E41B80BC23003C1287 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
 		4450A4EA1B80BE15003C1287 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		4450A4EC1B80BE63003C1287 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		4450A4EE1B80BEE4003C1287 /* Steerings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Steerings.swift; sourceTree = "<group>"; };
+		4450A4F01B80BEEF003C1287 /* Drives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drives.swift; sourceTree = "<group>"; };
+		4450A4F21B80BF32003C1287 /* Manufacturers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manufacturers.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,6 +89,9 @@
 			children = (
 				4450A4EA1B80BE15003C1287 /* Protocols.swift */,
 				4450A4E41B80BC23003C1287 /* Wheel.swift */,
+				4450A4EE1B80BEE4003C1287 /* Steerings.swift */,
+				4450A4F01B80BEEF003C1287 /* Drives.swift */,
+				4450A4F21B80BF32003C1287 /* Manufacturers.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -185,9 +194,12 @@
 			files = (
 				4450A4E51B80BC23003C1287 /* Wheel.swift in Sources */,
 				4450A4B51B8075D1003C1287 /* ViewController.swift in Sources */,
+				4450A4EF1B80BEE4003C1287 /* Steerings.swift in Sources */,
 				4450A4ED1B80BE63003C1287 /* Car.swift in Sources */,
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
 				4450A4EB1B80BE15003C1287 /* Protocols.swift in Sources */,
+				4450A4F31B80BF32003C1287 /* Manufacturers.swift in Sources */,
+				4450A4F11B80BEEF003C1287 /* Drives.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
