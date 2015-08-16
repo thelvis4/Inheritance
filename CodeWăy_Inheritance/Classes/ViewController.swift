@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         
         print(HondaCivic().manufacturer)
         print(HondaCivicSport().manufacturer)
+        
+        print(LexusGX().manufacturer)
     }
 }
 

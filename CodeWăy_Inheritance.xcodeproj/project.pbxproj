@@ -14,12 +14,14 @@
 		4450A4B91B8075D1003C1287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450A4B21B8075D1003C1287 /* Main.storyboard */; };
 		4450A4BE1B807EF9003C1287 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BD1B807EF9003C1287 /* Car.swift */; };
 		4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4BF1B807F2F003C1287 /* Wheel.swift */; };
-		4450A4C41B808533003C1287 /* ToyotaCorolla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C31B808533003C1287 /* ToyotaCorolla.swift */; };
-		4450A4C81B808654003C1287 /* ToyotaCorollaSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C71B808654003C1287 /* ToyotaCorollaSport.swift */; };
 		4450A4CA1B8087BB003C1287 /* FrontWheelDriveCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4C91B8087BB003C1287 /* FrontWheelDriveCar.swift */; };
 		4450A4CC1B8087FF003C1287 /* RearWheelDriveCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4CB1B8087FF003C1287 /* RearWheelDriveCar.swift */; };
-		4450A4CE1B8088E8003C1287 /* HondaCivic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4CD1B8088E8003C1287 /* HondaCivic.swift */; };
-		4450A4D01B808912003C1287 /* HondaCivicSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4CF1B808912003C1287 /* HondaCivicSport.swift */; };
+		4450A4D21B8089DB003C1287 /* AllWheelDriveCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4D11B8089DB003C1287 /* AllWheelDriveCar.swift */; };
+		4450A4D81B808A2F003C1287 /* HondaCivic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4D41B808A2F003C1287 /* HondaCivic.swift */; };
+		4450A4D91B808A2F003C1287 /* HondaCivicSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4D51B808A2F003C1287 /* HondaCivicSport.swift */; };
+		4450A4DA1B808A2F003C1287 /* ToyotaCorolla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4D61B808A2F003C1287 /* ToyotaCorolla.swift */; };
+		4450A4DB1B808A2F003C1287 /* ToyotaCorollaSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4D71B808A2F003C1287 /* ToyotaCorollaSport.swift */; };
+		4450A4DD1B808A55003C1287 /* LexusGX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4DC1B808A55003C1287 /* LexusGX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +33,14 @@
 		4450A4B31B8075D1003C1287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4450A4BD1B807EF9003C1287 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		4450A4BF1B807F2F003C1287 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
-		4450A4C31B808533003C1287 /* ToyotaCorolla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorolla.swift; sourceTree = "<group>"; };
-		4450A4C71B808654003C1287 /* ToyotaCorollaSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorollaSport.swift; sourceTree = "<group>"; };
 		4450A4C91B8087BB003C1287 /* FrontWheelDriveCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontWheelDriveCar.swift; sourceTree = "<group>"; };
 		4450A4CB1B8087FF003C1287 /* RearWheelDriveCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearWheelDriveCar.swift; sourceTree = "<group>"; };
-		4450A4CD1B8088E8003C1287 /* HondaCivic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivic.swift; sourceTree = "<group>"; };
-		4450A4CF1B808912003C1287 /* HondaCivicSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivicSport.swift; sourceTree = "<group>"; };
+		4450A4D11B8089DB003C1287 /* AllWheelDriveCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWheelDriveCar.swift; sourceTree = "<group>"; };
+		4450A4D41B808A2F003C1287 /* HondaCivic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivic.swift; sourceTree = "<group>"; };
+		4450A4D51B808A2F003C1287 /* HondaCivicSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HondaCivicSport.swift; sourceTree = "<group>"; };
+		4450A4D61B808A2F003C1287 /* ToyotaCorolla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorolla.swift; sourceTree = "<group>"; };
+		4450A4D71B808A2F003C1287 /* ToyotaCorollaSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToyotaCorollaSport.swift; sourceTree = "<group>"; };
+		4450A4DC1B808A55003C1287 /* LexusGX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexusGX.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,16 +86,26 @@
 		4450A4BA1B807848003C1287 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				4450A4D31B808A2F003C1287 /* ConcreteCars */,
 				4450A4BF1B807F2F003C1287 /* Wheel.swift */,
 				4450A4BD1B807EF9003C1287 /* Car.swift */,
 				4450A4C91B8087BB003C1287 /* FrontWheelDriveCar.swift */,
 				4450A4CB1B8087FF003C1287 /* RearWheelDriveCar.swift */,
-				4450A4C31B808533003C1287 /* ToyotaCorolla.swift */,
-				4450A4C71B808654003C1287 /* ToyotaCorollaSport.swift */,
-				4450A4CD1B8088E8003C1287 /* HondaCivic.swift */,
-				4450A4CF1B808912003C1287 /* HondaCivicSport.swift */,
+				4450A4D11B8089DB003C1287 /* AllWheelDriveCar.swift */,
 			);
 			path = Cars;
+			sourceTree = "<group>";
+		};
+		4450A4D31B808A2F003C1287 /* ConcreteCars */ = {
+			isa = PBXGroup;
+			children = (
+				4450A4D41B808A2F003C1287 /* HondaCivic.swift */,
+				4450A4D51B808A2F003C1287 /* HondaCivicSport.swift */,
+				4450A4D61B808A2F003C1287 /* ToyotaCorolla.swift */,
+				4450A4D71B808A2F003C1287 /* ToyotaCorollaSport.swift */,
+				4450A4DC1B808A55003C1287 /* LexusGX.swift */,
+			);
+			path = ConcreteCars;
 			sourceTree = "<group>";
 		};
 		4488B0101B8074F600ED2B3E = {
@@ -190,15 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4450A4CE1B8088E8003C1287 /* HondaCivic.swift in Sources */,
-				4450A4C41B808533003C1287 /* ToyotaCorolla.swift in Sources */,
-				4450A4D01B808912003C1287 /* HondaCivicSport.swift in Sources */,
+				4450A4DA1B808A2F003C1287 /* ToyotaCorolla.swift in Sources */,
+				4450A4DB1B808A2F003C1287 /* ToyotaCorollaSport.swift in Sources */,
+				4450A4D91B808A2F003C1287 /* HondaCivicSport.swift in Sources */,
+				4450A4D81B808A2F003C1287 /* HondaCivic.swift in Sources */,
 				4450A4CC1B8087FF003C1287 /* RearWheelDriveCar.swift in Sources */,
 				4450A4B51B8075D1003C1287 /* ViewController.swift in Sources */,
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
-				4450A4C81B808654003C1287 /* ToyotaCorollaSport.swift in Sources */,
 				4450A4CA1B8087BB003C1287 /* FrontWheelDriveCar.swift in Sources */,
+				4450A4DD1B808A55003C1287 /* LexusGX.swift in Sources */,
 				4450A4BE1B807EF9003C1287 /* Car.swift in Sources */,
+				4450A4D21B8089DB003C1287 /* AllWheelDriveCar.swift in Sources */,
 				4450A4C01B807F2F003C1287 /* Wheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

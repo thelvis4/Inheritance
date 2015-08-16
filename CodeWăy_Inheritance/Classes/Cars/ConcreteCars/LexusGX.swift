@@ -1,13 +1,13 @@
 //
-//  HondaCivicSport.swift
+//  LexusGX.swift
 //  CodeWăy_Inheritance
 //
 //  Created by Andrei Raifura on 8/16/15.
 //  Copyright © 2015 YOPESO. All rights reserved.
 //
 
-class HondaCivicSport: RearWheelDriveCar {
+class LexusGX: AllWheelDriveCar {
     override var manufacturer: String {
-        get { return "Honda" }
+        get { return "Lexus" }
     }
 }
