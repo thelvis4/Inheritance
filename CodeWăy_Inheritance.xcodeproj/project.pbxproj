@@ -18,6 +18,7 @@
 		4450A4EF1B80BEE4003C1287 /* Steerings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4EE1B80BEE4003C1287 /* Steerings.swift */; };
 		4450A4F11B80BEEF003C1287 /* Drives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4F01B80BEEF003C1287 /* Drives.swift */; };
 		4450A4F31B80BF32003C1287 /* Manufacturers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4F21B80BF32003C1287 /* Manufacturers.swift */; };
+		4450A4F71B80C09F003C1287 /* CarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450A4F61B80C09F003C1287 /* CarFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4450A4EE1B80BEE4003C1287 /* Steerings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Steerings.swift; sourceTree = "<group>"; };
 		4450A4F01B80BEEF003C1287 /* Drives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drives.swift; sourceTree = "<group>"; };
 		4450A4F21B80BF32003C1287 /* Manufacturers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manufacturers.swift; sourceTree = "<group>"; };
+		4450A4F61B80C09F003C1287 /* CarFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarFactory.swift; sourceTree = "<group>"; };
 		4488B0191B8074F600ED2B3E /* CodeWăy_Inheritance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeWăy_Inheritance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				4450A4EC1B80BE63003C1287 /* Car.swift */,
+				4450A4F61B80C09F003C1287 /* CarFactory.swift */,
 				4450A4E31B80BBBE003C1287 /* Components */,
 			);
 			path = Cars;
@@ -199,6 +202,7 @@
 				4450A4B41B8075D1003C1287 /* AppDelegate.swift in Sources */,
 				4450A4EB1B80BE15003C1287 /* Protocols.swift in Sources */,
 				4450A4F31B80BF32003C1287 /* Manufacturers.swift in Sources */,
+				4450A4F71B80C09F003C1287 /* CarFactory.swift in Sources */,
 				4450A4F11B80BEEF003C1287 /* Drives.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

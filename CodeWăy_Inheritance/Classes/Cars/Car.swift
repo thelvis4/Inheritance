@@ -13,7 +13,7 @@ class Car {
     let rearRight: Wheel
     
     let steering: Steering
-    let driving: Driving
+    var driving: Driving
     let manufacturer: Manufacturer
     
     init(frontLeft: Wheel, frontRight: Wheel, rearLeft: Wheel, rearRight: Wheel,
@@ -34,10 +34,13 @@ class Car {
     
     func turnRight(degrees: Double) {
         steering.turnRight(degrees)
-
     }
     
     func accelerate(kph: Double) {
         driving.accelerate(kph)
+    }
+    
+    func description() -> String {
+        return manufacturer.name
     }
 }
