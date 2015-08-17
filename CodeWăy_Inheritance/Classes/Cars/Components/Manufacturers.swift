@@ -8,24 +8,24 @@
 
 class Toyota: Manufacturer {
     var name: String {
-        get { return "Toyota"}
+        get { return "Toyota" }
     }
 }
 
 class Honda: Manufacturer {
     var name: String {
-        get { return "Honda"}
+        get { return "Honda" }
     }
 }
 
 class Lexus: Manufacturer {
     var name: String {
-        get { return "Lexus"}
+        get { return "Lexus" }
     }
 }
 
 class Experimental: Manufacturer {
     var name: String {
-        get { return "Experimental"}
+        get { return "Experimental" }
     }
 }

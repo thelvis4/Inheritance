@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let experimental = CarFactory.makeExperimentalCar()
         print(experimental.description())
         
-        experimental.driving = AllWheelDrive(wheels: experimental.wheels)
+        experimental.driving = Drive(wheels: experimental.wheels)
     }
 }
 

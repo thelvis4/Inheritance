@@ -6,7 +6,11 @@
 //  Copyright © 2015 YOPESO. All rights reserved.
 //
 
-struct WheelPair {
+protocol Iterable {
+    func forEach(operation: Wheel -> ())
+}
+
+struct WheelPair: Iterable {
     let left: Wheel
     let right: Wheel
     
@@ -21,7 +25,7 @@ struct WheelPair {
     }
 }
 
-struct Wheels {
+struct Wheels: Iterable {
     let frontLeft = Wheel()
     let frontRight = Wheel()
     let rearLeft = Wheel()

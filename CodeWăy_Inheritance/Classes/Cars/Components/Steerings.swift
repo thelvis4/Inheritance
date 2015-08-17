@@ -6,26 +6,10 @@
 //  Copyright © 2015 YOPESO. All rights reserved.
 //
 
-class FrontSteering: Steering {
-    private let wheels: WheelPair
+class WheelSteering: Steering {
+    private let wheels: Iterable
     
-    init (pair: WheelPair) {
-        wheels = pair
-    }
-    
-    func turnLeft(degrees: Double) {
-        wheels.forEach { $0.turnLeft(degrees) }
-    }
-    
-    func turnRight(degrees: Double) {
-        wheels.forEach { $0.turnRight(degrees) }
-    }
-}
-
-class AllWheelSteering: Steering {
-    private let wheels: Wheels
-    
-    init (wheels: Wheels) {
+    init (wheels: Iterable) {
         self.wheels = wheels
     }
     
